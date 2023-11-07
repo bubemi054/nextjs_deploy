@@ -1,0 +1,117 @@
+/** @format */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif !important;
+    box-sizing: border-box !important;
+  }
+  
+  .bb {
+    background: #f3f3f3;
+  }
+  
+  .blogpage h1 {
+    color: #486284 !important;
+  }
+  .searchh {
+    border: 1px solid #d6d6d6;
+  }
+  
+  .blog-sidebar ol li a {
+    text-decoration: none !important;
+    color: #696969;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2.625rem;
+    margin-top: 15px;
+    font-size: 1.2rem;
+  }
+  .blog-sidebar h4 {
+    color: #226666;
+    font-weight: bold;
+    font-size: 1.8rem;
+  }
+  .blog-side h4 {
+    color: #226666;
+    font-weight: bold;
+  }
+  .blog-sidebar {
+    border-radius: 1.0625rem;
+    background: #fff;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    height: 49.5rem;
+    flex-shrink: 0;
+    text-align: center;
+  }
+  .btn-sidebar {
+    background-color: #b13557 !important;
+    color: #ffffff !important;
+    font-size: 14px !important;
+    border: none !important;
+  }
+  .blog-side .fa {
+    font-size: 25px;
+    padding: 0 0 0 7px;
+  }
+  
+  .men {
+    width: 5.625rem;
+    height: 3.8125rem;
+    flex-shrink: 0;
+    border-radius: 1.90625rem;
+    background: #fff;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  }
+  
+  .tagp p {
+    color: #eff3fd;
+    font-family: Poppins;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 121.2%; /* 1.14663rem */
+    text-transform: capitalize;
+  }
+  .blog {
+    border-radius: 0.6rem;
+    background: #fff;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    height: 56.625rem;
+    flex-shrink: 0;
+  }
+  
+  .blog p {
+    font-size: 1.2rem;
+  }
+  
+  
+  
+  @media screen and (max-width: 750px) {
+    .blog-sidebar ol li a {
+     font-size: 1rem;
+     gap: 1rem;
+   }
+  
+   .blog-sidebar h4 {
+     font-size: 1.5rem;
+   }
+  
+   .blog-sidebar {
+     height: auto;
+   }
+  
+   .blog {
+     height: auto;
+     padding: 10px;
+   }
+  
+   .btn-sidebar {
+     font-size: 12px !important;
+   }
+  }
+  
+  
+  
+  

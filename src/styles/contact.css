@@ -1,0 +1,125 @@
+/** @format */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif !important;
+  }
+  
+  a {
+    text-decoration: none !important;
+  }
+  .fa {
+    color: #b13557;
+  }
+  .map {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 20px 0 0 0;
+  }
+  .map iframe {
+    width: 100%;
+    height: 500px;
+  }
+  .contacts {
+    width: 100% !important;
+    height: 70.5625rem;
+    flex-shrink: 0;
+    border-radius: 1.25rem;
+    background: #fff;
+    /* border: 2px solid red; */
+  
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  }
+  
+  .contacts h4 {
+    color: #266;
+    font-feature-settings: "clig" off, "liga" off;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 2.25rem; /* 105.882% */
+  }
+  
+  .cons {
+    width: 43rem;
+    height: 8.875rem;
+    border-radius: 0.625rem;
+    background: #fff;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin-left: 140px;
+    /* border: 2px solid red; */
+  }
+  
+  .cons small {
+    color: #555;
+    font-feature-settings: "clig" off, "liga" off;
+    font-family: Poppins;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5rem; /* 150% */
+    letter-spacing: 0.03125rem;
+  }
+  
+  @media screen and (max-width: 850px) {
+  
+    .contacts {
+      width: 100% !important;
+      height: 69.5625rem;
+      flex-shrink: 0;
+      border-radius: 1.25rem;
+      background: #fff;
+      /* border: 2px solid red; */
+    
+      box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    }
+    
+    .cons {
+      width: 43rem;
+      height: 8.875rem;
+      border-radius: 0.625rem;
+      background: #fff;
+      box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+      /* margin-left: 140px; */
+    }
+  
+    .contacts,
+    .cons {
+      width: 100%;
+      margin-left: 0; /* Remove left margin for smaller screens */
+    }
+  
+    .contacts input,
+    .contacts textarea,
+    .cons {
+      margin-bottom: 15px;
+      
+    }
+  
+    .map {
+      padding: 0 10px; /* Add horizontal padding for the map container */
+    }
+  }
+  
+  /* Common CSS for both Desktop and Mobile */
+  .contacts,
+  .cons {
+    border-radius: 0.625rem;
+    background: #fff;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    padding: 20px; /* Add padding for better readability */
+  }
+  
+  /* Additional CSS for specific styles */
+  .contacts h4,
+  .cons h1 {
+    font-size: 1.5rem; /* Adjust heading font size for better mobile display */
+    margin-bottom: 15px; /* Add some space below headings for better readability */
+  }
+  
+  .lh-1 {
+    flex: 1; /* Allow content to take remaining space in flex container */
+  }
+  

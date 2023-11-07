@@ -1,0 +1,553 @@
+/** @format */
+
+/* @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600;800&display=swap"); */
+@import url("https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.header-bg {
+  width: 100%;
+  padding-top: 100px;
+  background: #fafafb;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+ 
+.header-bg .header {
+  width: 90%;
+  height: auto;
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+
+}
+ 
+.header-bg .header .content {
+  width: 700px;
+  height: 100%;
+  position: relative;
+  z-index: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  background: transparent;
+
+}
+ 
+.header-bg .header .content h1 {
+  width: 100%;
+  color: #266;
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 58px;
+  text-align: left;
+
+}
+ 
+.header-bg .header .content p {
+  color: #1a202c;
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 26px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  opacity: 0.6;
+
+    /* border: 2px solid red; */
+
+}
+
+ 
+.header-bg .header .content button {
+  width: 150px;
+  height: auto;
+  padding: 10px 10px;
+  background: #b13557 !important;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+  cursor: pointer;
+  box-shadow: 2px 2px 4px gray;
+  font-weight: 600;
+  margin-bottom: 3rem;
+
+
+}
+ 
+.header-bg .header .content button:hover {
+  transform: scale(1.05);
+}
+ 
+.header-bg .header .image {
+  width: 800px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+  position: relative;
+  z-index: 2;
+}
+ 
+.header-bg .header .image img {
+  max-width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: relative;
+  z-index: 2;
+}
+/* ThankYou.css */
+.thank-you-container {
+  /* border: 2px solid green;  */
+
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Set the height of the container to fill the viewport */
+}
+
+.thank-you-image {
+  /* border: 2px solid red; */
+  width: 100%; /* Make sure the image takes the full width of the container */
+}
+
+.thankyou {
+  /* border: 2px solid red; */
+  height: 70%;
+  margin-top: 7rem;
+}
+.text-container {
+  /* border: 2px solid red; */
+  margin-bottom: 90px;
+  position: absolute;
+  text-align: center;
+  z-index: 1;
+}
+.text-container h1 {
+  font-size: 4rem;
+  color: #266;
+}
+.text-container p {
+  font-size: 1rem;
+  color: black;
+  font-weight: 400;
+  line-height: 150%;
+}
+h1,
+p {
+  margin: 0;
+  padding: 0;
+}
+/* Media queries */
+
+/* @media screen and (max-width: 1050px) { */
+ 
+  @media screen and (max-width: 1310px) {
+    .header-bg .header {
+      padding-top: 0px;
+    }
+   
+    .header-bg .header .content h1 {
+      font-size: 36px;
+      font-weight: 900;
+      line-height: 48px;
+    }
+   
+    .header-bg .header .content p {
+      font-size: 16px;
+    }
+   
+    .header-bg .header .content button {
+      font-size: 14px;
+    }
+    
+  
+  }
+  @media screen and (max-width: 1122px) {
+    .header-bg .header .content h1 {
+      font-size: 34px;
+      font-weight: 900;
+      line-height: 40px;
+    }}
+  @media screen and (max-width: 1058px) {
+    .header-bg .header .content h1 {
+      font-size: 32px;
+      font-weight: 900;
+      line-height: 40px;
+    }
+  }
+  @media screen and (max-width: 1003px) {
+    .header-bg .header .content h1 {
+      font-size: 30px;
+      font-weight: 900;
+      line-height: 40px;
+    }}
+  @media screen and (max-width: 940px) {
+    .header-bg .header .content {
+      gap: 15px;
+    }
+   
+    .header-bg .header .content h1 {
+      font-size: 26px;
+      font-weight: 900;
+      line-height: 32px;
+    }
+   
+    .header-bg .header .content p {
+      font-size: 16px;
+      line-height: 24px;
+    }
+  }
+  @media screen and (max-width: 834px) {
+    .header-bg {
+      padding-top: 70px;
+    }
+   
+    .header-bg .header {
+      flex-direction: column;
+      padding-bottom: 20px;
+      align-items: center;
+      padding-top: 70px;
+      gap: 50px;
+    }
+   
+    .header-bg .header .content {
+      gap: 15px;
+      align-items: center;
+    }
+   
+    .header-bg .header .content h1 {
+      font-size: 40px;
+      font-weight: 800;
+      line-height: 48px;
+      letter-spacing: 0em;
+      text-align: center;
+    }
+   
+    .header-bg .header .content p {
+      font-size: 16px;
+      line-height: 24px;
+      text-align: center;
+    }
+   
+    .header-bg .header .content button {
+      font-size: 14px;
+    }
+   
+    .header-bg .header .image {
+      width: 700px;
+      height: auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-top: 0;
+      padding-bottom: 50px;
+      position: relative;
+      z-index: 2;
+    }
+   
+    .header-bg .header .image img {
+      max-width: 100%;
+      height: 100%;
+      object-fit: cover;
+      position: relative;
+      z-index: 2;
+    }
+  }
+
+
+@media screen and (max-width: 750px) {
+  .header-bg .header .content {
+    width: 90%;
+    gap: 10px;
+  }
+ 
+  .header-bg .header .content p {
+    font-size: 16px;
+    text-align: center;
+  }
+ 
+  .header-bg .header .content h1 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+ 
+  .header-bg .header .image {
+    width: 600px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+  }
+ 
+  .header-bg .header .image img {
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: relative;
+    z-index: 2;
+  }}
+@media screen and (max-width: 620px) {
+  .header-bg .header {
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+  }
+ 
+  .header-bg .header .content {
+    height: 100%;
+    top: -20px;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    padding: 0 10px;
+  }
+ 
+  .header-bg .header .content button {
+    width: 150px;
+    padding: 12px 5px;
+    font-size: 14px;
+  }
+ 
+  .header-bg .header .image {
+    width: 500px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+  }
+ 
+  .header-bg .header .image img {
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: relative;
+    z-index: 2;
+  }}
+@media screen and (max-width: 550px) {
+  .header-bg .header {
+    width: 100%;
+    justify-content: center;
+  }
+ 
+  .header-bg .header .content {
+    height: 100%;
+    top: -20px;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    padding: 0 10px;
+  }
+ 
+  .header-bg .header .content button {
+    width: 150px;
+    padding: 12px 5px;
+    font-size: 14px;
+  }
+ 
+  .header-bg .header .image {
+    width: 450px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+  }
+ 
+  .header-bg .header .image img {
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: relative;
+    z-index: 2;
+  }}
+@media screen and (max-width: 510px) {
+  .header-bg .header {
+    width: 100%;
+    justify-content: center;
+  }
+ 
+  .header-bg .header .content {
+    height: 100%;
+    top: -20px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 0 10px;
+  }
+ 
+  .header-bg .header .content p {
+    font-size: 14px;
+    text-align: center;
+  }
+ 
+  .header-bg .header .content h1 {
+    font-size: 24px;
+    line-height: 35px;
+  }
+ 
+  .header-bg .header .content button {
+    width: 150px;
+    padding: 12px 5px;
+    font-size: 14px;
+  }
+ 
+  .header-bg .header .image {
+    width: 400px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+  }
+ 
+  .header-bg .header .image img {
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: relative;
+    z-index: 2;
+  }
+@media screen and (max-width: 450px) {
+  .header-bg .header .image {
+    width: 380px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+  }}
+ 
+@media screen and (max-width: 410px) {
+  .header-bg .header .content p {
+    font-size: 14px;
+    text-align: center;
+  }
+ 
+  .header-bg .header .content h1 {
+    font-size: 22px;
+    line-height: 35px;
+  }
+}
+@media screen and (max-width: 380px) {
+  .header-bg .header .image {
+    width: 320px;
+  }}
+@media screen and (max-width: 350px) {
+  .header-bg .header .image {
+    width: 300px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+  }
+}
+
+
+
+/* } */
+
+@media screen and (max-width: 750px) {
+  .thank-you-container {
+    /* border: 2px solid green;  */
+    margin-bottom: -35rem;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Set the height of the container to fill the viewport */
+  }
+
+  .thankyou {
+    height: 35%;
+    /* border: 2px solid red; */
+    margin-bottom: 38rem;
+  }
+
+  .text-container {
+    /* border: 2px solid red; */
+    margin-bottom: 20px;
+    position: absolute;
+    text-align: center;
+    z-index: 1;
+    margin-bottom: 40rem;
+  }
+  .text-container h1 {
+    font-size: 2rem;
+    color: #266;
+  }
+  .text-container p {
+    font-size: 0.51rem;
+    color: black;
+    font-weight: 400;
+    line-height: 150%;
+  }
+  h1,
+  p {
+    margin: 0;
+    padding: 0;
+  }
+  .header-bg .header {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+  .header-bg .header .image .img-fluid {
+    /* border: 3px solid red; */
+    width: 100%;
+  }
+  .header-bg .header .content button {
+    font-size: 1.2rem;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .header-bg .header .content {
+    margin-top: -60px;
+    gap: 10px;
+    align-items: center;
+    /* border: 2px solid red; */
+  }
+
+  .header-bg .header .content p {
+    font-size: 1.2rem;
+    text-align: center;
+    width: 100%;
+    /* border: 2px solid red; */
+  }
+
+  .header-bg .header .content h1 {
+    color: #266;
+    text-align: center;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2.5rem;
+    width: 100%;
+    /* border: 2px solid red; */
+  }
+  .header-bg .header .content button {
+    font-size: 1.2rem;
+    align-items: center;
+  }
+}
+}
